@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  app:
+    image: devlikeapro/waha:latest
+    container_name: ${APP_ID}
+    restart: unless-stopped
+    ports:
+      - "3017:3000"
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
