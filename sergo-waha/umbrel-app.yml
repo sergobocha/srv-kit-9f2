@@ -1,22 +1,25 @@
 manifestVersion: 1
 id: sergo-waha
 name: WAHA
-tagline: WhatsApp HTTP API for self-hosted automation
+tagline: WhatsApp HTTP API you can run on your own server
 icon: icon.png
 category: developer
-version: "1.0.0"
+version: "2026.5.1"
 port: 3017
 description: >-
-  Self-hosted WhatsApp HTTP API for automation and integrations.
+  WAHA is a self-hosted WhatsApp HTTP API (REST API) for automation,
+  integrations, bots, and messaging workflows. It provides Swagger-based API
+  docs, supports multiple engines, and can be run with Docker in minutes.
 developer: devlikeapro
-website: https://github.com/devlikeapro/waha
+website: https://waha.devlike.pro/
 submitter: sergobocha
 submission: https://github.com/sergobocha/srv-kit-9f2
 repo: https://github.com/devlikeapro/waha
 support: https://github.com/devlikeapro/waha/issues
 gallery: []
 releaseNotes: >-
-  Initial community package for WAHA on Umbrel with external port 3017.
+  Packaged for Umbrel from upstream WAHA release 2026.5.1. External port is set
+  to 3017, while the container keeps using internal port 3000.
 dependencies: []
 path: ""
 defaultUsername: ""
