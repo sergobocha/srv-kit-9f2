@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sergo-waha
 name: WAHA
 tagline: WhatsApp HTTP API for self-hosted automation
-icon: https://raw.githubusercontent.com/devlikeapro/waha/core/.github/logo.png
+icon: icon.png
 category: developer
 version: "1.0.0"
 port: 3017
