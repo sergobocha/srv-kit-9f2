@@ -1,2 +1,23 @@
-id: "sergo"
-name: "Sergo"
+manifestVersion: 1
+id: sergo-waha
+name: WAHA
+tagline: WhatsApp HTTP API for self-hosted automation
+icon: https://raw.githubusercontent.com/devlikeapro/waha/core/.github/logo.png
+category: developer
+version: "1.0.0"
+port: 3017
+description: >-
+  Self-hosted WhatsApp HTTP API for automation and integrations.
+developer: devlikeapro
+website: https://github.com/devlikeapro/waha
+submitter: sergobocha
+submission: https://github.com/sergobocha/srv-kit-9f2
+repo: https://github.com/devlikeapro/waha
+support: https://github.com/devlikeapro/waha/issues
+gallery: []
+releaseNotes: >-
+  Initial community package for WAHA on Umbrel with external port 3017.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
